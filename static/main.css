@@ -1,0 +1,43 @@
+body,
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+div.content {
+    position: absolute;
+    top: 200px;
+}
+
+div.footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+div.text {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 50px;
+}
+div.text span {
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  div.content {
+    display: block !important;
+  }
+  div.check {
+    width: 100% !important;
+  }
+  div.check:first-child {
+    margin-bottom: 50px;
+  }
+  div.container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
